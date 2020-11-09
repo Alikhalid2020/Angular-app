@@ -7,10 +7,11 @@ import{Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
 quotes: Quote[]=[
-  new Quote(1,'KERRY', 'CHELSEA WILL WIN CHAMPION', 'KHALID', new Date(2020,9,11)),
-  new Quote(2,'henry', 'CHELSEA WILL WIN CHAMPION', 'KHALID', new Date(2020,9,11)),
-  new Quote(3,'joker', 'CHELSEA WILL WIN CHAMPION', 'KHALID', new Date(2020,9,11))
+  new Quote(1,'Buddha', 'The secret of health for both mind and body is not to mourn for the past,Worry about the future or anticipate troubles but to live in the present moment wisely and earnestly.', 'KHALID', new Date(2020,9,11)),
+  new Quote(2,'henry', 'Success is not final.failure is not fatal', 'KHALID', new Date(2020,9,11)),
+  new Quote(3,'joker', 'Just smile', 'KHALID', new Date(2020,9,11))
 ];
+
 
 upVote(index) {
     this.quotes[index].upVote++;
